@@ -11,3 +11,11 @@ body {
   font-family: Bricolage Grotesque, Bricolage Grotesque Fallback;
   font-style: normal;
 }
+
+.wrapper-svg svg {
+  opacity: 0.7 !important;
+}
+
+.wrapper-title:hover .wrapper-svg svg {
+  opacity: 1 !important;
+}
